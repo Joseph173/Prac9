@@ -22,7 +22,7 @@
               Class.forName("com.mysql.jdbc.Driver");
 
               // Step 2: Define Connection URL
-              String connURL ="jdbc:mysql://localhost/db1?user=root&password=12345"; 
+              String connURL ="jdbc:mysql://localhost/onlineshop?user=root&password=12345"; 
 
               // Step 3: Establish connection to URL
               Connection conn = DriverManager.getConnection(connURL); 
@@ -65,5 +65,5 @@
     }
 %>        
     
-    <body>
+    
 </html>
